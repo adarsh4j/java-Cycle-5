@@ -5,7 +5,7 @@ class experiment2
 	public static void main(String[] args) throws Exception
 	{
 		FileInputStream fin = new FileInputStream("File1.txt");
-		int c=-1, l=0, w=0;
+		int c=0, l=0, w=0;
 		int ch;
 		while((ch = fin.read())!=-1)
 		{
