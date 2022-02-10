@@ -19,7 +19,7 @@ class Experiment4
 				s+=b;
 			}
 		}
-		System.out.format("The sum of numbers in file is:%d",s);
+		System.out.println("The sum of numbers in file is:"+s);
 		
 	}
 }
