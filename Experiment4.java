@@ -9,7 +9,7 @@ class Experiment4
 		int i,s=0;
 		while((i=fin.read())!=-1)
 		{
-			System.out.print((char)i);
+			System.out.println((char)i);
 			a=Character.toString((char)i);
 			StringTokenizer st=new StringTokenizer(a);
 			while(st.hasMoreTokens())
