@@ -8,7 +8,7 @@ class Experiment1
 	 int i=1;
 	 int ch;
 	 System.out.print(i+"-");
-	 while((ch = fin.read())==-1)
+	 while((ch = fin.read())!=-1)
 	 {
 		System.out.println((char)ch);
 		if(ch=='\n')
