@@ -10,9 +10,9 @@ class Experiment1
 	 System.out.print(i+"-");
 	 while((ch = fin.read())!=-1)
 	 {
-		System.out.println((char)ch);
+		System.out.print((char)ch);
 		if(ch=='\n')
-			System.out.println(++i+"-");
+			System.out.print(++i+"-");
 	 }
 	 fin.close();
 	}
